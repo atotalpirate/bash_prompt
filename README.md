@@ -1,15 +1,27 @@
-My Bash Prompt
+My MacOS Bash Prompt
 ===========
 
-Open Terminal
+Open Terminal, paste this in and hit enter:
 
-Paste in the following:
+```
+cd
+touch .git-prompt.sh
+nano .git-prompt.sh
+```
 
-cd to ~
+Now open your browser and navigate to [this link](https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh). Copy everything (command + A) on this page to your clipboard.
 
-type `nano .bash_profile`
+Go back to Terminal and paste the contents of your clipboard to `.git-prompt.sh` which is the file you left open.
 
-Paste in the following:
+Save and get out of `nano` by hitting `control + x` it will ask you to confirm, type `y` and enter.
+
+Now open your bash_profile by pasting this into your Terminal:
+
+```
+nano .bash_profile
+```
+
+Once you're in your .bash_profile, paste in the following:
 
 ```
 #Load in the git branch prompt script.
@@ -18,4 +30,10 @@ source ~/.git-prompt.sh
 PS1="\[\e[38;5;242m\]\[\e[1m\]\h\[\e[0;37m\]:\[\e[38;5;16m\]\[\e[1m\]\W\[\e[0;37m\]@\[\e[38;5;52m\]\T\[\e[38;5;24m\]\$(__git_ps1)\[\e[38;5;37m\]$\[\e[38;5;235m\] "
 ```
 
-Looks like: ![]()
+Save and get out of `nano` by hitting `control + x` it will ask you to confirm, type `y` and enter.
+
+Should look like: 
+
+![]()
+
+When you're in a folder watched by Git.
