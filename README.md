@@ -34,6 +34,6 @@ Save and get out of `nano` by hitting `control + x` it will ask you to confirm, 
 
 Should look like: 
 
-![]()
+![Screenshot of my bash prompt](https://raw.githubusercontent.com/atotalpirate/bash_prompt/master/img.png)
 
 When you're in a folder watched by Git.
