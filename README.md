@@ -1,6 +1,16 @@
 My Bash Prompt
 ===========
 
+Open Terminal
+
+Paste in the following:
+
+cd to ~
+
+type `nano .bash_profile`
+
+Paste in the following:
+
 ```
 #Load in the git branch prompt script.
 source ~/.git-prompt.sh
