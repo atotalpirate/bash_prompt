@@ -40,5 +40,5 @@ Displaying:
 
 * \h = Abbreviated hostname
 * \W = Current directory
-* \T = Time at what that command was entered
+* \T = Time when that command was entered
 * \$(__git_ps1) Current Git branched checked out 
