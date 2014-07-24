@@ -36,4 +36,9 @@ Should look like:
 
 ![Screenshot of my bash prompt](https://raw.githubusercontent.com/atotalpirate/bash_prompt/master/img.png)
 
-When you're in a folder watched by Git.
+Displaying:
+
+* \h = Abbreviated hostname
+* \W = Current directory
+* \T = Time at what that command was entered
+* \$(__git_ps1) Current Git branched checked out 
