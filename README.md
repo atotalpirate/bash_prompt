@@ -32,7 +32,9 @@ PS1="\[\e[38;5;242m\]\[\e[1m\]\h\[\e[0;37m\]:\[\e[38;5;16m\]\[\e[1m\]\W\[\e[0;37
 
 Save and get out of `nano` by hitting `control + x` it will ask you to confirm, type `y` and enter.
 
-Should look like: 
+Close Terminal and reopen it.
+
+Now it should look like: 
 
 ![Screenshot of my bash prompt](https://raw.githubusercontent.com/atotalpirate/bash_prompt/master/img.png)
 
